@@ -16,7 +16,7 @@ struct FInputActionValue;
 
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
-UCLASS(config=Game)
+UCLASS(config = Game);
 class ACyberoidCharacter : public ACharacter
 {
 	GENERATED_BODY()
